@@ -12,7 +12,7 @@ header{
     margin-bottom: 10px;
 }
 
-nav ul{
+header nav ul{
     display: flex;
     justify-content: space-around;
     gap: 50px;
@@ -24,21 +24,64 @@ nav ul{
 
 main{
     display: flex;
-    justify-content: space-around;
-    margin: 20;
+    justify-content: center;
+    margin: 100px;
+    gap: 20px;
 
 }
 
 .delivery{
     background-image: url(delivery.jpg);
     background-repeat: no-repeat;
-    flex-grow: 1;
+    
     background-size: cover;
     flex-basis: auto;
+    height: 350px;
+    width: 490px;
 }
 
 .top5{
     background-color: #FFFFFF;
     border: #222222 1px solid;
-    flex-grow: 1;
+    height: 350px;
+    width: 490px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 50px;
+    justify-content: space-between;
+}
+
+.toptit{
+    width: 490px;
+    height: auto;
+    text-align: center;
+    padding-top: 26px;
+}
+
+footer{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+    padding: 20px;
+    height: 150px;
+    width: auto;
+    justify-items: center;
+}
+
+Footer nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    list-style-type: none;
+    flex-grow: 0.5;
+    flex-direction: column;
+    justify-items: center;
+
+}
+
+footer img {
+    height: 80px;
+    width: 212px;
+    ;
 }
